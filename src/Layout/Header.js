@@ -11,7 +11,7 @@ const Header = () => {
                     <div>
                         <ul className="flex space-x-4">
                             <li><Link to="/products">Products</Link></li>
-                            <li><Link to="/shopping-cart">cart</Link></li>
+                            <li><Link to="/shopping-cart">Cart</Link></li>
                             <li><Link to="/order-history">My Order</Link></li>
                             <li><Link to="/login">Login</Link></li>
                         </ul>
