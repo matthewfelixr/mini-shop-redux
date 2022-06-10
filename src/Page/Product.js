@@ -19,7 +19,8 @@ const Product = () => {
                 }
             })
         } )
-    },[])
+         // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [products])
 
     return(
         <section>
